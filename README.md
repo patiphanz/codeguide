@@ -87,6 +87,6 @@ public class EmployeeManager
 ```
 In above example, tomorrow if you want to change the logic so that everytime domestic address is always the preferred address, you will change the logic inside `getPrefferedAddress()` method, and client will be unaffected.
 
-Exercise :
+Exercise : [EmployeeManager](https://github.com/patiphanz/codeguide/blob/master/src/codeguide/EmployeeManager.java)
 
 Reference : [Java OOP Concepts](http://howtodoinjava.com/object-oriented/object-oriented-principles/)
