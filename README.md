@@ -16,11 +16,11 @@ class Car
     }
 
     public void drive(){
-      //Function apply to drive car
+        System.out.println("drive!!");
     }
 
-    public void break(){
-
+    public void stop(){
+        System.out.println("Breakk!!");
     }
 
     //And so on
@@ -32,7 +32,7 @@ class Supercar extends Car {
     }
 
     public void Turbo(){
-
+        System.out.println("BOOMMM!!!");
     }
 }
 ```
@@ -40,7 +40,7 @@ In above example, `Supercar` is specialized version of `Car` and reuses methods 
 
 We will learn more about inheritance in java in another post.
 
-Exercise : 
+Exercise : [Supercar](https://github.com/patiphanz/codeguide/blob/master/src/codeguide/Supercar.java)
 
 Reference : [Java OOP Concepts](http://howtodoinjava.com/object-oriented/object-oriented-principles/)
 
